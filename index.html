@@ -7,7 +7,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div id="container">
+        <h1>Let's Play Rock, Paper, Scissors</h1>
+        <h2>Choose your Option</h2>
+        <div>
+            <div>
+                <img src="" alt="">
+                <button id="rock">ROCK</button>
+            </div>
+            <div>
+                <img src="" alt="">
+                <button id="paper">PAPER</button>
+            </div>
+            <div>
+                <img src="" alt="">
+                <button id="scissors">SCISSORS</button>
+            </div>
+        </div>
+        <!-- Display Round Results -->
+        <div class="resultsDisplay">
+            <p>Your Choice: <span id="userChoice">-</span></p>
+            <p>Computer Choice: <span id="computerChoice">-</span></p>
+            <p id="roundWinner">Click a Button to Start Playing</p>
+        </div>
+        <!-- Display Cumulative Round Results -->
+         <div>
+            <h2 class="scoreBoard"></h2>
+            <p>Player: <span id="playerScore">0</span></p>
+            <p>Computer: <span id="computerScore">0</span></p>
+         </div>
+    </div>
 
     <script src="app.js">
 
